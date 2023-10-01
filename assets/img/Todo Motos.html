@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Motos</title>
+    
+    
+<link rel="stylesheet" href="./Todo Motos_files/style.css"><link rel="icon" type="img.jpg" href="./Todo Motos_files/motorbike.svg"></head>
+
+<body>
+
+    <div class="grid-container">
+        <menu>
+            <section class="brand">
+                <img id="icon" src="./Todo Motos_files/motorbike.svg">
+                <p id="brandname"> Todo Motos</p>
+            </section>
+            <section class="second">
+                <div class="navbar">
+                    <a class="nav-link active text-light" href="http://127.0.0.1:5501/index.html#">Inicio</a>
+                    <a class="nav-link active text-light" href="http://127.0.0.1:5501/index.html#">Catálogo</a>
+                    <a class="nav-link active text-light" href="http://127.0.0.1:5501/index.html#">Ofertas</a>
+                    <a class="nav-link active text-light" href="http://127.0.0.1:5501/index.html#">Contacto</a>
+                </div>
+                <div class="headline">
+                    <img id="headline" src="./Todo Motos_files/view-headline.svg">
+                </div>
+            </section>
+        </menu>
+
+        <div class="filter">
+            <form action="http://127.0.0.1:5501/index.html#">
+                <label for="order">Ordenar por:</label>
+                <select name="filtro" id="order">
+                    <option value="low_price">Precio de menor a mayor</option>
+                    <option value="high_price">Precio de mayor a menor</option>
+                    <option value="low_year">Año de menor a mayor</option>
+                    <option value="high_year">Año de mayor a menor</option>
+                    <option value="brand_a">Marca (de A a la Z)</option>
+                    <option value="brand_z">Marca (de la Z a la A)</option>
+                </select>
+            </form>
+        </div>
+
+        <main>
+            <section class="flex-container">
+                <div class="products">
+                    <article>
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/KTM390duke.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                    <article class="devoid">
+                        <div id="car">
+                            <img class="citycar" src="./Todo Motos_files/car.png">
+                        </div>
+                        <p>Model: City Car</p>
+                        <button class="detail">Ver más</button>
+                    </article>
+                </div>
+                <!-- Pagination -->
+                <div class="pages">
+                    <button class="page">
+                        &lt;&lt; </button>
+                            <button class="page">1</button>
+                            <button class="page">2</button>
+                            <button class="page">3</button>
+                            <button class="page">&gt;&gt;</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section id="footer">
+                <div class="social_media">
+                    <img src="./Todo Motos_files/facebook.svg">
+                    <img src="./Todo Motos_files/instagram.svg">
+                </div>
+                <p id="rights">Todos los derechos reserados</p>
+            </section>
+        </footer>
+    </div>
+
+    <script src="./Todo Motos_files/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
